@@ -28,3 +28,13 @@ a {
   color: $defaul;
   line-height: 26px;
 }
+
+.title {
+  text-align: center;
+  @extend %roboto-700;
+  font-size: 48px;
+  line-height: 65px;
+  color: $title;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
