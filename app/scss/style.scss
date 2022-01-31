@@ -275,15 +275,6 @@
     }
   }
   
-  .title {
-    text-align: center;
-    @extend %roboto-700;
-    font-size: 48px;
-    line-height: 65px;
-    color: $title;
-    margin-bottom: 10px;
-  }
-  
   .text {
     text-align: center;
     max-width: 570px;
@@ -340,10 +331,53 @@
     &__title {
       font-size: 22px;
       line-height: 26px;
-      color: $title;
-      @extend %roboto-500;
       margin: 8px 0 15px;
       transition: all .3s;
+    }
+  }
+  
+  .video-fashion {
+    background-color: $bg;
+    background-image: url(..//images/decor/Pattern.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 125px 0;
+    &__inner {
+      display: flex;
+    }
+    &__popup {
+      margin-right: 64px;
+      min-width: 566px;
+      height: 480px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    &__content {
+      min-width: 570px;
+    }
+    &__subtitle {
+      padding-top: 75px;
+      font-size: 22px;
+      line-height: 26px;
+      color: $accent;
+      text-transform: uppercase;
+      @extend %quicksand-500;
+      margin-bottom: 18px;
+    }
+    &__title {
+      text-align: left;
+      margin-bottom: 40px;
+    }
+    &__text {
+      margin-bottom: 55px;
+    }
+    &__link {
+      @extend %btn;
     }
   }
   
