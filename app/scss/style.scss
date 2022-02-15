@@ -154,6 +154,18 @@
             }
           }
           
+          .top {
+            &__container {
+              max-width: 1700px;
+              margin: 0 auto;
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-position: top center;
+              padding: 120px 0 130px;
+              text-align: center;
+            }
+          }
+          
           .top-slider {
             background-image: url('../images/decor/shape.png');
             background-repeat: no-repeat;
@@ -614,6 +626,56 @@
                 fill: $accent;
                 transition: all 0.3s;
               }
+            }
+          }
+          
+          .modal {
+            max-width: 570px;
+            margin: 0 auto 115px;
+            padding-top: 100px;
+            &__links {
+              text-align: center;
+              margin-bottom: 40px;
+            }
+            &__link {
+              font-size: 22px;
+              color: #909090;
+              @extend%roboto-400;
+              text-transform: uppercase;
+              margin: 0 30px;
+            }
+            &__link--active {
+              color: $accent;
+            }
+            &__label {
+              margin-bottom: 30px;
+              display: block;
+            }
+            &__input {
+              display: block;
+              width: 100%;
+              border: none;
+              background-color: $bg;
+              margin-top: 4px;
+              height: 60px;
+              padding: 0 15px;
+            }
+            &__btn {
+              display: block;
+              background-color: $title;
+              font-size: 16px;
+              letter-spacing: 3px;
+              color: #ffffff;
+              @extend %roboto-400;
+              cursor: pointer;
+              border: none;
+              padding: 14px 0;
+              width: 100%;
+            }
+            &__error {
+              margin-top: 12px;
+              color: $accent;
+              display: inline-block;
             }
           }
           
