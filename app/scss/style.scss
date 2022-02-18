@@ -677,6 +677,9 @@
               color: $accent;
               display: inline-block;
             }
+            &__text {
+              margin-bottom: 40px;
+            }
           }
           
           @import 'media';
