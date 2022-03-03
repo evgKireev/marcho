@@ -2,6 +2,14 @@ $accent:#fe3e57;
 $defaul:#8d8d8d;
 $title:#29282d;
 $bg: #f6f6f6;
+%checkbox-hidden {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  position: absolute;
+}
+
 %quicksand-500 {
   font-family: 'Quicksand-Medium', sans-serif;
   font-weight: 500;
