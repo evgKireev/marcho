@@ -2,7 +2,8 @@ $accent:#fe3e57;
 $defaul:#8d8d8d;
 $title:#29282d;
 $bg: #f6f6f6;
-%checkbox-hidden {
+%checkbox-hidden,
+%radio-hidden {
   width: 1px;
   height: 1px;
   overflow: hidden;
